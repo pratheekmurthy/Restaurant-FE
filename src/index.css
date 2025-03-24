@@ -1,10 +1,23 @@
 body {
   margin: 0;
+  padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center; /* Centers the heading and other inline elements */
+}
+
+h1 {
+  margin: 20px 0;
+  text-align: center; /* Ensures heading is centered */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /* Centers content within the page */
+  padding: 20px;
 }
 
 code {
